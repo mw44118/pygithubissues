@@ -1,0 +1,10 @@
+I want to interact with github issues using python.
+
+I'm following these docs: http://developer.github.com/v3/issues/
+
+This code uses subprocess and curl.  It doesn't create a shell though,
+so security risks are limited.
+
+I welcome patches that replace using curl at the command-line with
+something that either uses the pycurl, or something from the standard
+library, or something like the requests or httplib2 libraries.
